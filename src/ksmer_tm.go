@@ -176,7 +176,11 @@ func ReadFASTA(sequence_file string) []byte {
     return []byte(byte_array.String())
 }
 
-// TODO: in_dir and out_dir cmd line args
+// TODO: 	
+//			store as slice of slice instead of maps
+//			build b (iterate through map for each kmer and accumulate)
+//			identify rare kmers (kmers that appear infrequently among the genomes)
+//			in_dir and out_dir cmd line args
 //			.fastq processing
 func main() {
 	
