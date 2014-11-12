@@ -1,0 +1,10 @@
+Loading settings from "/Users/bccurry/Library/Preferences/MetaSim.Settings"... {AppSettings}
+Reading abundance profile `5-output.mprf' [7KiB]
+Database: jdbc:hsqldb:file:database/genomedb
+63 sequences selected.
+Generating Reads for `5-output.mprf'
+size: 2174
+frag: 2172
+start: 1709
+end: 3881
+random seed was: 7092306312284713040

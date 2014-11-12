@@ -1,0 +1,206 @@
+[INFO] logger started at Tue Nov 11 10:08:26 CST 2014
+[INFO] exectuable name: /Users/bccurry/Downloads/Metasim.sh
+[INFO] Properties: 
+-- listing properties --
+java.runtime.name=Java(TM) SE Runtime Environment
+exe4j.moduleName=/Users/bccurry/Downloads/Metasim.sh
+sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk...
+java.vm.version=24.55-b03
+gopherProxySet=false
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+path.separator=:
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+user.country=US
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=unknown
+install4j.exeDir=/Users/bccurry/Downloads/
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/Users/bccurry/Downloads/Metasim.sh.7...
+java.runtime.version=1.7.0_55-b13
+java.awt.graphicsenv=sun.awt.CGraphicsEnvironment
+java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk...
+os.arch=x86_64
+java.io.tmpdir=/var/folders/9y/jfz4r8311933zss1kln59...
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+os.name=Mac OS X
+exe4j.totalDataLength=14743630
+sun.java2d.noddraw=true
+sun.jnu.encoding=UTF-8
+java.library.path=/Users/bccurry/Library/Java/Extension...
+sun.awt.enableExtraMouseButtons=true
+java.specification.name=Java Platform API Specification
+java.class.version=51.0
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+os.version=10.10
+http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+user.home=/Users/bccurry
+install4j.cwd=/Users/bccurry/Downloads
+user.timezone=America/Chicago
+java.awt.printerjob=sun.lwawt.macosx.CPrinterJob
+java.specification.version=1.7
+install4j.jvmDir=/usr
+file.encoding=UTF-8
+user.name=bccurry
+java.class.path=i4jruntime.jar:user.jar
+java.vm.specification.version=1.7
+sun.arch.data.model=64
+java.home=/Library/Java/JavaVirtualMachines/jdk...
+sun.java.command=com.install4j.runtime.Launcher launch...
+java.specification.vendor=Oracle Corporation
+user.language=en
+awt.toolkit=sun.lwawt.macosx.LWCToolkit
+java.vm.info=mixed mode
+java.version=1.7.0_55
+java.ext.dirs=/Users/bccurry/Library/Java/Extension...
+sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk...
+java.vendor=Oracle Corporation
+install4j.appDir=/Users/bccurry/Downloads/
+file.separator=/
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+sun.cpu.endian=little
+sun.io.unicode.encoding=UnicodeBig
+sun.font.fontmanager=sun.font.CFontManager
+socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16
+ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16
+sun.cpu.isalist=
+[INFO] com.install4j.runtime.beans.screens.StartupScreen: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen: Show screen
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.LicenseScreen: Show screen
+[INFO] com.install4j.runtime.beans.screens.LicenseScreen: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen: Show screen
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.ComponentsScreen: Show screen
+[INFO] com.install4j.runtime.beans.screens.ComponentsScreen: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen: Show screen
+[INFO] com.install4j.runtime.beans.screens.StandardProgramGroupScreen: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen: Show screen
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before execute action
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Property directoryResolverScript: null
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Property fileFilterScript: null
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Property checkFreeSpace: true
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Property delay: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Property showFileNames: true
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Property triggerReboot: true
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Property validateApplicationId: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Property rollbackSupported: true
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Component MetaSim Program[1691242192]; Selected: true
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Component Manual[1691242193]; Selected: true
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Variable changed: sys.installationDir=/Users/bccurry/Desktop/metasim[class java.lang.String]
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Users/bccurry/Desktop/metasim/.install4j/MetaSim.png; exists: false
+[INFO] fileTime: Wed Mar 18 11:39:48 CDT 2009, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Users/bccurry/Desktop/metasim/.install4j/MetaSim.png
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Users/bccurry/Desktop/metasim/.install4j/uninstall.png; exists: false
+[INFO] fileTime: Wed Mar 18 11:39:48 CDT 2009, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Users/bccurry/Desktop/metasim/.install4j/uninstall.png
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Users/bccurry/Desktop/metasim/uninstall; exists: false
+[INFO] fileTime: Wed Mar 18 11:39:48 CDT 2009, mode: 700, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Users/bccurry/Desktop/metasim/uninstall
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Users/bccurry/Desktop/metasim/manual.pdf; exists: false
+[INFO] fileTime: Wed Mar 18 11:39:42 CDT 2009, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Users/bccurry/Desktop/metasim/manual.pdf
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Users/bccurry/Desktop/metasim/class/resources/files/ncbi.map; exists: false
+[INFO] fileTime: Wed Mar 18 11:39:42 CDT 2009, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Users/bccurry/Desktop/metasim/class/resources/files/ncbi.map
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Users/bccurry/Desktop/metasim/class/resources/files/ncbi.siz; exists: false
+[INFO] fileTime: Wed Mar 18 11:39:42 CDT 2009, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Users/bccurry/Desktop/metasim/class/resources/files/ncbi.siz
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Users/bccurry/Desktop/metasim/class/resources/files/ncbi.tre; exists: false
+[INFO] fileTime: Wed Mar 18 11:39:42 CDT 2009, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Users/bccurry/Desktop/metasim/class/resources/files/ncbi.tre
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Users/bccurry/Desktop/metasim/examples/ErrorModelSolexa36bp.mconf; exists: false
+[INFO] fileTime: Wed Mar 18 11:39:42 CDT 2009, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Users/bccurry/Desktop/metasim/examples/ErrorModelSolexa36bp.mconf
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Users/bccurry/Desktop/metasim/jars/batik-all-1.6.jar; exists: false
+[INFO] fileTime: Wed Mar 18 11:39:42 CDT 2009, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Users/bccurry/Desktop/metasim/jars/batik-all-1.6.jar
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Users/bccurry/Desktop/metasim/jars/batik.LICENSE.txt; exists: false
+[INFO] fileTime: Wed Mar 18 11:39:42 CDT 2009, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Users/bccurry/Desktop/metasim/jars/batik.LICENSE.txt
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Users/bccurry/Desktop/metasim/jars/batik.NOTICE.txt; exists: false
+[INFO] fileTime: Wed Mar 18 11:39:42 CDT 2009, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Users/bccurry/Desktop/metasim/jars/batik.NOTICE.txt
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Users/bccurry/Desktop/metasim/jars/BrowserLauncher2-10rc4.jar; exists: false
+[INFO] fileTime: Wed Mar 18 11:39:42 CDT 2009, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Users/bccurry/Desktop/metasim/jars/BrowserLauncher2-10rc4.jar
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Users/bccurry/Desktop/metasim/jars/commons-compress-20050911.jar; exists: false
+[INFO] fileTime: Wed Mar 18 11:39:42 CDT 2009, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Users/bccurry/Desktop/metasim/jars/commons-compress-20050911.jar
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Users/bccurry/Desktop/metasim/jars/evolve.jar; exists: false
+[INFO] fileTime: Wed Mar 18 11:39:42 CDT 2009, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Users/bccurry/Desktop/metasim/jars/evolve.jar
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Users/bccurry/Desktop/metasim/jars/hsqldb-1.8.0.7.jar; exists: false
+[INFO] fileTime: Wed Mar 18 11:39:42 CDT 2009, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Users/bccurry/Desktop/metasim/jars/hsqldb-1.8.0.7.jar
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Users/bccurry/Desktop/metasim/jars/hsqldb.jar; exists: false
+[INFO] fileTime: Wed Mar 18 11:39:42 CDT 2009, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Users/bccurry/Desktop/metasim/jars/hsqldb.jar
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Users/bccurry/Desktop/metasim/jars/jcommon-1.0.10.jar; exists: false
+[INFO] fileTime: Wed Mar 18 11:39:42 CDT 2009, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Users/bccurry/Desktop/metasim/jars/jcommon-1.0.10.jar
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Users/bccurry/Desktop/metasim/jars/MetaSim.jar; exists: false
+[INFO] fileTime: Wed Mar 18 11:39:42 CDT 2009, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Users/bccurry/Desktop/metasim/jars/MetaSim.jar
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Users/bccurry/Desktop/metasim/jars/MRJAdapter.jar; exists: false
+[INFO] fileTime: Wed Mar 18 11:39:42 CDT 2009, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Users/bccurry/Desktop/metasim/jars/MRJAdapter.jar
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Users/bccurry/Desktop/metasim/jars/oro-2.0.8.jar; exists: false
+[INFO] fileTime: Wed Mar 18 11:39:42 CDT 2009, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Users/bccurry/Desktop/metasim/jars/oro-2.0.8.jar
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Users/bccurry/Desktop/metasim/jars/swtgraphics2d.jar; exists: false
+[INFO] fileTime: Wed Mar 18 11:39:42 CDT 2009, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Users/bccurry/Desktop/metasim/jars/swtgraphics2d.jar
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Users/bccurry/Desktop/metasim/License.txt; exists: false
+[INFO] fileTime: Wed Mar 18 11:39:42 CDT 2009, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Users/bccurry/Desktop/metasim/License.txt
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Users/bccurry/Desktop/metasim/MetaSim; exists: false
+[INFO] fileTime: Wed Mar 18 11:39:48 CDT 2009, mode: 755, overwriteMode: If newer otherwise ask, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Users/bccurry/Desktop/metasim/MetaSim
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Users/bccurry/Desktop/metasim/.install4j/inst_jre.cfg; exists: false
+[INFO] fileTime: Tue Nov 11 10:09:10 CST 2014, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Users/bccurry/Desktop/metasim/.install4j/inst_jre.cfg
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Users/bccurry/Desktop/metasim/.install4j/i4jruntime.jar; exists: false
+[INFO] fileTime: Tue Nov 11 10:09:10 CST 2014, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Users/bccurry/Desktop/metasim/.install4j/i4jruntime.jar
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Users/bccurry/Desktop/metasim/.install4j/MessagesDefault; exists: false
+[INFO] fileTime: Tue Nov 11 10:09:10 CST 2014, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Users/bccurry/Desktop/metasim/.install4j/MessagesDefault
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Users/bccurry/Desktop/metasim/.install4j/i4jparams.conf; exists: false
+[INFO] fileTime: Tue Nov 11 10:09:10 CST 2014, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Users/bccurry/Desktop/metasim/.install4j/i4jparams.conf
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Users/bccurry/Desktop/metasim/.install4j/user.jar; exists: false
+[INFO] fileTime: Tue Nov 11 10:09:10 CST 2014, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Users/bccurry/Desktop/metasim/.install4j/user.jar
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Users/bccurry/Desktop/metasim/.install4j/i4j_extf_0_jx3hsu.utf8; exists: false
+[INFO] fileTime: Tue Nov 11 10:09:10 CST 2014, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Users/bccurry/Desktop/metasim/.install4j/i4j_extf_0_jx3hsu.utf8
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: Before install file: /Users/bccurry/Desktop/metasim/.install4j/i4j_extf_1_jx3hsu.txt; exists: false
+[INFO] fileTime: Tue Nov 11 10:09:10 CST 2014, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After install file: /Users/bccurry/Desktop/metasim/.install4j/i4j_extf_1_jx3hsu.txt
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction: After execute action
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction: Before execute action
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction: Property categories: Application
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction: Property linkDirectory: /usr/local/bin
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction: Property programGroupEntryConfigs: []
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction: Property programGroupName: MetaSim
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction: Property addDefaultLauncherLinks: true
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction: Property addUninstaller: true
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction: Property allUsers: true
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction: Property enabled: true
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction: Property rollbackSupported: true
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction: After execute action
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction: Before execute action
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction: Property itemName: MetaSim 0.9.5
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction: Property icon: null
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction: Property persistentProperties: {}
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction: Property rollbackSupported: true
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction: After execute action
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen: Rollback barrier reached
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen: Show screen
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen: command: finish
+[INFO] com.install4j.runtime.installer.InstallerContextImpl: Finishing

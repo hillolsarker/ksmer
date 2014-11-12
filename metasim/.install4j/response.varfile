@@ -1,0 +1,10 @@
+#install4j response file for MetaSim 0.9.5
+#Tue Nov 11 10:09:12 CST 2014
+sys.component.1691242192$Boolean=true
+sys.component.1691242193$Boolean=true
+sys.programGroup.linkDir=/usr/local/bin
+sys.languageId=en
+sys.installationDir=/Users/bccurry/Desktop/metasim
+sys.programGroupDir=/usr/local/bin
+sys.programGroup.enabled$Boolean=true
+sys.programGroup.allUsers$Boolean=true
