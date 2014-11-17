@@ -54,9 +54,9 @@ func store(genomeId uint16, kmerId uint32) {
 
 // Given the genome information in contigStr, a k-value, and a genome ID (1, 2, 3, etc.)
 // determine the frequency of each kmer in contigStr
-func storeContigMappings(genomeId uint16, contigStr []byte, k uint32) {
-	var i uint32;
-	var kmerVal uint32 = 0;
+//func storeContigMappings(genomeId uint16, contigStr []byte, k uint32) {
+//	var i uint32;
+//	var kmerVal uint32 = 0;
 	// Spool off k-1 bits of contigStr to find first kmer
 func storeContigMappings(genomeId uint16, contigStr []byte, k uint32) {
 	var i uint32;
