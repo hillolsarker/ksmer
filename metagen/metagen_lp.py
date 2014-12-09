@@ -3,9 +3,6 @@ import sys
 from gurobipy import *
 from datetime import datetime
 
-#infile is input file
-#logfile contains running time
-#outfile is output file, contains solutions for x and y
 infile = sys.argv[1]
 logfile = sys.argv[2]
 outfile = sys.argv[3]
@@ -14,6 +11,7 @@ f = open(infile, "r")
 
 F = {}
 b = []
+name = []
 
 # n is number of k-mers
 s1 = datetime.now()
@@ -23,10 +21,14 @@ for line in f.readlines():
     #print(line)
     part = line.split(",")
     #print part
-    b.append(float(part[len(part)-1]))
-    for j in range(1,len(part)-1):
-    	F[n,j-1] = float(part[j])
-    n = n + 1
+    if (part[0] != "K-mer"):
+        b.append(float(part[len(part)-1]))
+        for j in range(1,len(part)-1):
+        	F[n,j-1] = float(part[j])
+        n = n + 1
+    else:
+        for idx in range(1,len(part)-1):
+            name.append(part[idx])
 
 # g is number of genomes
 g = len(part) - 2
@@ -43,7 +45,7 @@ try:
 	x = [None] * (g)
 	y = [None] * (n)
 	for i in range(g):
-		x[i] = m.addVar(lb = 0, vtype = GRB.CONTINUOUS, name="x"+str(i))
+		x[i] = m.addVar(lb = 0, vtype = GRB.CONTINUOUS, name=name[i])
         for i in range(n):
 		y[i] = m.addVar(lb = 0, vtype = GRB.CONTINUOUS, name="y"+str(i))
 	
@@ -71,20 +73,14 @@ try:
 	s5 = datetime.now()
         print "\n"
 	m.optimize()
-
-        """if m.status == GRB.INFEASIBLE:
-            m.feasRelaxS(1, False, False, True)
-            m.optimize()"""
-
+        
         if m.SolCount > 0:
             for v in m.getVars():
-		print('%s %f' %(v.varName, v.x))
+    	       print('%s %f' %(v.varName, v.x))
 
             print ('Obj: %g' %m.objVal)
         else:
             print "No solution found."
-	
-
 
         s6 = datetime.now()
 
@@ -105,5 +101,3 @@ try:
 except GurobiError as e:
 	print('Error reported')
         print e.errno
-
-
