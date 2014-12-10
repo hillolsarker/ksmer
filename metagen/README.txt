@@ -3,7 +3,7 @@ How to run
 Require Python 2.7.x
 
 Input: 
-- csv file: number of k-mer in Microbial genomes and in Reads
+- csv file: frequencies of k-mer in Microbial genomes and in Reads
   - Column 1: k-mer ID
   - Column G_1, G_2,...., G_m: Microbial genome 1, 2,...., m (matrix F)
   - Last column: b 
