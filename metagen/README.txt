@@ -3,9 +3,9 @@ How to run
 Require Python 2.7.x
 
 Input: 
-- csv file: 
+- csv file: number of k-mer in Microbial genomes and in Reads
   - Column 1: k-mer ID
-  - Column G_1, G_2,...., G_m: Genome 1, 2,...., m (matrix F)
+  - Column G_1, G_2,...., G_m: Microbial genome 1, 2,...., m (matrix F)
   - Last column: b 
   - n rows for number of k-mer
 - Cell: number of k-mer in G_i
